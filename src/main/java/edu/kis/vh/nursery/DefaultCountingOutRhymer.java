@@ -5,6 +5,7 @@ public class DefaultCountingOutRhymer {
     private static final int SIZE_TABLE = 12;
     private static final int SIZE_FULL = 11;
     private static final int EMPTY = -1;
+    private static final int VALUE_START =-1;
     private final int[] numbers = new int[SIZE_TABLE];
 
     public int total = EMPTY;
@@ -15,7 +16,7 @@ public class DefaultCountingOutRhymer {
     }
 
     public boolean callCheck() {
-        return total == EMPTY;
+        return total == VALUE_START;
     }
 
     public boolean isFull() {
