@@ -13,10 +13,13 @@ public class DefaultCountingOutRhymer {
 
     private int total = EMPTY;
 
+<<<<<<< HEAD
     public int getTotal() {
         return total;
     }
 
+=======
+>>>>>>> d7957b40f762eb339408440b05b498517a7dfe83
     /**
      * Metoda dodaje wartość przekazaną jako parametr do tablicy wartości.
      * @param in jest liczbą dodawaną do tablicy wartości
